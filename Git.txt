@@ -1,2 +1,117 @@
 
-	
+
+	Lista de comandos: 
+
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
+
+http://comandosgit.github.io/
+
+
+**Descrição: o que esta escrito maiusculo é um exemplo!**
+
+
+	Comandos para configurar e etc.:
+
+*git config --global user.name "NOME"
+
+*git config --global user.email "EMAIL"
+
+git config --global core.editor NOME DO EDITOR -> definir o editor 
+
+git config --list -> para listar tudo
+
+mkdir git-NOME DA PASTA -> criar pasta dentro do repositorio
+
+cd git-NOME DA PASTA/ -> entrar na pasta
+
+*git init: -> inicializa o repositório
+
+ls -la  -> listar diretorio
+
+ls  -> listar
+
+cd.NOME DO DIRETORIO -> abrir diretorio
+
+cd .. -> Voltar
+
+-git status: -> reporta como esta o repositorio
+
+git NOME DO ARQUIVO, -> ele adiciona um arquivo
+
+git add . -> adiciona todos
+
+git commit -m "" -> para mandar para o repositorio e adicionar um comentario
+
+git log -> identificação, ator, email e data da modificação. 
+
+git log --author="NOME DO AUTOR"
+
+git shortlog -> quais foram os autores e quais commts fizeram (em ordem arfabetica)
+
+git shortlog -sn -> lista quem deu commit e quatos foram
+
+git reset --hard CODIGO DO COMMIT ANTES -> volta ao commit de acordo com o codigo/
+
+git log --graph -> mostra em forma grafica os brash e as versões
+
+git diff -> mostra a modificação
+
+git diff --name-only -> somente o nome do arquivo que foi modificado
+
+git commit -am "COMENTARIO" -> modificar o que já existe
+
+git reset NOME DO ARQUIVO -> retira o arquivo
+
+git reset --soft  CODIGO DO COMMIT ANTES -> mata o commit, e fica pronto para comitar de novo
+
+git reset --mixed CODIGO DO COMMIT ANTES -> mata o commit e vai retornar (não entendi)
+
+git checkout NOME DO ARQUIVO -> retornar quando estão em estado de edição
+
+
+git chekout -b NOME DO BRANCH -> criar uma brash e entra nele
+
+git branch -> mostra os brash existentes e em qual você esta
+
+git checkout NOME DO BRANCH -> vai pro brash 
+
+git checkout master -> vai pro brash master
+
+git branch -D NOME DO DO BRANCH -> para apagar o tal branch
+
+git rebase -> "Desfazer o merge"
+
+git stash -> guarda o que estava trabalhando
+
+git stash apply -> para continuar mexendo
+
+git stash list -> lista o que esta guardado
+
+git stash clear -> apaga o que esta guardado
+
+git config --global alias.s O QUE VAI FAZER
+
+vim NOME DO ARQUIVO -> cria um arquivo
+
+git tag -a VERSÃO -m "COMENTÁRIO" ->  criar tag
+
+git push origin master --tags -> para subir a tag
+
+git push origin master -> para subir "atualizações"
+
+git revert CODIGO DO COMMIT -> reverte o commit, não perder a mudanças que fiz
+
+git show CODIGO DO COMMIT -> mostra o que aconteceu com o commit 
+
+git tag -> mostra as tags
+
+git tag -d VERSÃO DA TAG -> apaga a tag
+
+**subir tag deletada, pois ela não apaga no gerenciador
+
+git push origin master --tags
+
+git push origin: NUMERO (VERSÃO) DA TAG *Pode apagar branch desta forma também*
+
+
+
